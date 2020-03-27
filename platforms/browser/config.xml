@@ -34,6 +34,33 @@
         <application android:theme="@android:style/Theme.NoTitleBar">
         </application>
     </gap:config-file>
+    <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
+        <string>Enable Packed to access your camera to take photos of you and to save as profile picture.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
+        <string>Enable Packed to access your photo library to get pictures from there.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+        <string>This allows us to use your location to find restaurant nearby.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationAlwaysAndWhenInUseUsageDescription">
+        <string>This allows us to use your location to provide and to facilitate more accurately, keeping you in the loop about Packed.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationAlwaysUsageDescription">
+        <string>This allows us to use your location to find restaurant nearby.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryAddUsageDescription">
+        <string>Enable Packed to access your photo library to save pictures there.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSMicrophoneUsageDescription">
+        <string>Packed need microphone access to record sounds</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSBluetoothAlwaysUsageDescription">
+        <string>This allows us to facilitate more restaurant</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSBluetoothPeripheralUsageDescription">
+        <string>Improve location accuracy when finding nearby restaurant</string>
+    </edit-config>
     <preference name="orientation" value="portrait" />
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="SplashScreenDelay" value="10000" />
