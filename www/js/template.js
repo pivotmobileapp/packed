@@ -1715,10 +1715,10 @@ profileMenu = function(is_login){
 	        html+='<div class="center trn">'+ t("Your address book") +'</div>';
 	      html+='</ons-list-item>';
 	      
-	      html+='<ons-list-item modifier="chevron"  class="" tappable  onclick="showPage(\'booking_history.html\')" >';
+/*	      html+='<ons-list-item modifier="chevron"  class="" tappable  onclick="showPage(\'booking_history.html\')" >';
 	        html+='<div class="left"><ons-icon icon="md-receipt" size="22px"></ons-icon></div>';
 	        html+='<div class="center trn">'+ t("Booking history") +'</div>';
-	      html+='</ons-list-item>';
+	      html+='</ons-list-item>';*/
 	      	      
 	      if(settings){
 	      	 if(settings.has_pts==1){
@@ -1777,7 +1777,7 @@ tabbarMenu = function(){
 	html='';
 	
 	html+='<ons-tabbar id="tabbar_bottom"  position="bottom" animation="none" modifier="is_rtl">';
-	    html+='<ons-tab page="splitter.html" label="'+ t("Food") +'" icon="md-local-dining" ></ons-tab>';
+	    html+='<ons-tab page="splitter.html" label="'+ t("Grocery") +'" icon="md-shopping-basket" ></ons-tab>';
 	    html+='<ons-tab page="reviews.html" label="'+ t("Reviews") +'" icon="md-star" ></ons-tab> ';
 	    html+='<ons-tab page="orders.html" label="'+ t("Orders") +'" icon="md-reorder" ></ons-tab>';
 	    html+='<ons-tab page="profile_menu.html" label="'+ t("You") +'" icon="fa-user" ></ons-tab>';
