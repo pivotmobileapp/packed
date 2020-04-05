@@ -446,11 +446,11 @@ var displayItemDetails = function(data, cart_data) {
 	
 	/*SPECIAL INSTRUCTIONS*/
 	html+='<ons-list modifier="list_grey">';
-	  html+='<ons-list-header>' +  t("Special Request")  + '</ons-list-header>';	    	  
+	  html+='<ons-list-header>' +  t("Shopping List")  + '</ons-list-header>';	    	  
 	html+='</ons-list>';
 		
 	notes_value = !empty(cart_data.notes)?cart_data.notes:'';
-	html+='<textarea name="notes" class="textarea textarea--transparent full_width" rows="2" placeholder="'+ t("Your preferences or request") +'.." >'+ notes_value  +'</textarea>';	
+	html+='<textarea name="notes" class="textarea textarea--transparent full_width" rows="2" placeholder="'+ t("add your shopping list here") +'.." >'+ notes_value  +'</textarea>';	
 	
 	/*COOKING REF*/
 	if(!empty(data.cooking_ref)) {		
