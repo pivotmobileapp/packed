@@ -450,7 +450,7 @@ var displayItemDetails = function(data, cart_data) {
 	html+='</ons-list>';
 		
 	notes_value = !empty(cart_data.notes)?cart_data.notes:'';
-	html+='<textarea name="notes" class="textarea textarea--transparent full_width" rows="2" placeholder="'+ t("add your shopping list here") +'.." >'+ notes_value  +'</textarea>';	
+	html+='<textarea name="notes" class="textarea textarea--transparent full_width" rows="2" placeholder="'+ t("Add your shopping list here") +'.." >'+ notes_value  +'</textarea>';	
 	
 	/*COOKING REF*/
 	if(!empty(data.cooking_ref)) {		
